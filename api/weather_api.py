@@ -7,9 +7,9 @@ import fastapi
 
 router = fastapi.APIRouter()
 
-#@router.get('/api/umbrella', response_model=UmbrellaStatus)
-@router.get('/api/umbrella')
-async def do_i_need_an_umbrella(location: Location =  fastapi.Depends(UmbrellaStatus)):
+@router.get('/api/umbrella', response_model=UmbrellaStatus)
+#@router.get('/api/umbrella')
+async def do_i_need_an_umbrella(location: Location = fastapi.Depends()):
 
     data = await get_live_report(location)
 
