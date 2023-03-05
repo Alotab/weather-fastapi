@@ -1,6 +1,9 @@
 # weather-fastapi
 This repo focuses on using FastAPI to build a weather-api that tracks current weather situations in every Country/State/City. 
 
+The weather-fastapi is built on top of a weather api provided by `https://weather.talkpython.fm/` and it's only use for educational purposes.
+
+url = `https://weather.talkpython.fm/api/weather?city=portland&state=OR&country=US&units=imperial`
 
 
 ## Templates
