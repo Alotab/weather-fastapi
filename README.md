@@ -6,12 +6,14 @@ This repo focuses on using FastAPI to build a weather-api that tracks current we
 ## Templates
 
 jinja2 template engine was used to serve the templates in `templates/index.html`
+
 `pip install jinja2` and import `Jinja2Templates`
 
 Created a template object
+
 ` templates = Jinja2Templates("templates")`
 
-Declared a `Request` in the ~path ~operation of function (index function) since it will return a template
+Declared a `Request` in the ~path ~operation of function (index function) since it will return a template.
 
 The `templates` object will render and return a `TemplateResponse`. 
 
